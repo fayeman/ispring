@@ -16,7 +16,7 @@ public class TestSpringMyBatis {
         //获得bean
         UserMapper UserMapper = ctx.getBean(UserMapper.class);
         //访问数据库
-        User user = new User();
+        User user = new User();   
         user.setBirth("2000-01-01");
         user.setId(""+System.currentTimeMillis());
         user.setName("tom");
