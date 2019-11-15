@@ -11,7 +11,7 @@ public class TestSpringMyBatis {
 
 	@Test
     public void saveUser() {
-        System.out.println("start-------------------------");
+        System.out.println("start-----saveUser--------------------");
         ctx = new ClassPathXmlApplicationContext("spring-mybatis.xml");
         //获得bean
         UserMapper UserMapper = ctx.getBean(UserMapper.class);
@@ -21,6 +21,6 @@ public class TestSpringMyBatis {
         user.setId(""+System.currentTimeMillis());
         user.setName("tom");
         UserMapper.saveUser(user);
-        System.out.println("end----------------------------");
+        System.out.println("end-----saveUser-----------------------");
     }
 }
