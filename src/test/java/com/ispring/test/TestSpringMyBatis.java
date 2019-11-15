@@ -10,7 +10,7 @@ public class TestSpringMyBatis {
     private ApplicationContext ctx;
 
 	@Test
-    public void saveUser() {
+    public void saveUser() { 
         System.out.println("start-----saveUser--------------------");
         ctx = new ClassPathXmlApplicationContext("spring-mybatis.xml");
         //获得bean
