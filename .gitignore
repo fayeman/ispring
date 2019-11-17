@@ -1,4 +1,3 @@
 /build/
 /target/
-/settings/
-/src/test/
+.settings/
