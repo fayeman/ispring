@@ -14,7 +14,7 @@
 	</properties>
   
 	<dependencies>
-		<!-- Spring3 框架核心工具类 -->
+		<!-- Spring5 框架核心工具类 -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
