@@ -20,7 +20,7 @@
 			<artifactId>spring-core</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		<!-- Spring 扩展服务 -->
+		<!-- Springframework 扩展服务 -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
