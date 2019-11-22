@@ -14,7 +14,7 @@
 	</properties>
   
 	<dependencies>
-		<!-- Spring1 框架核心工具类 -->
+		<!-- Spring2 框架核心工具类 -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
